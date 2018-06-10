@@ -6,39 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/username"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="请输入账号" />
-
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="请输入密码" />
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <CheckBox
-        android:id="@+id/remenber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="记住密码"/>
-    <CheckBox
-        android:id="@+id/auto_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="自动登录"/></LinearLayout>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="login"
-        android:text="登录" />
-    <Button
-        android:id="@+id/register"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="注册"/>
+   <Button
+       android:id="@+id/bysharedpreferences"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="SharedPreferences"/>
+   <Button
+       android:id="@+id/bysqlitehelper"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="sqlitehelper"/>
 
 </LinearLayout>

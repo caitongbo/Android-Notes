@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
+    tools:context=".Main3Activity">
 
     <EditText
         android:id="@+id/username"
